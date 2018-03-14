@@ -1,7 +1,15 @@
-# PUBG-Radar
-PUBG-Radar by sniffering udp packet
+# PUBG-Radar 1.3
+
+Works with the new update (13.03.2018)
 
 Written in Kotlin
+
+# Know bug
+* Problem with targetting user
+
+# Version 1.3
+* Adding a readBit() to PacketParset.kt
+* Map's are now in 8bits : 64Mo / maps
 
 # Changes
 * Get self player's location by parsing `CharMoveComp` RPC. So the player's direction is corrected now. 
